@@ -1,0 +1,73 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1%;
+}
+
+hr {
+    width: 20%;
+    margin-top: 0;
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    background-color: #D2D7D3;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 0.5px solid #044F67;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+#create-user {
+    margin-bottom: 1%;
+    padding: 7px;
+}
+
+#edit, #delete {
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+    font-size: 1em;
+}
+
+tr:nth-child(even) {
+  background-color: #ECF0F1;
+}
+
+th {
+    background-color: #22A7F0;
+    color: white;
+}
+
+td:last-of-type {
+    justify-content: space-between;
+    text-align: center;
+}
+
+#delete {
+    margin-left: 20%;
+}

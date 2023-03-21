@@ -32,7 +32,10 @@ export const AllUsers = () => {
     return (
         <>
             <h1>All users</h1>
-            <button id="create-user">Create new user</button>
+            <hr/>
+            <div id="button-container">
+                <button id="create-user">Add user</button>
+            </div>
             <div classname="users-container" style={{ overflowX: "auto" }}>
                 <table>
                     <tr>
@@ -40,6 +43,7 @@ export const AllUsers = () => {
                         <th>Company</th>
                         <th>Department</th>
                         <th>Title</th>
+                        <th>Actions</th>
                     </tr>
                     {users.map(user => (
                         <tr key={user.id}>
@@ -49,8 +53,6 @@ export const AllUsers = () => {
                             <td>{user.company.title}</td>
                             <td>
                                 <button id="edit">Edit</button>
-                            </td>
-                            <td>
                                 <button id="delete" onClick={() => onDeleteHandler(user.id)}>Delete</button>
                             </td>
                         </tr>
