@@ -9,10 +9,10 @@ function App() {
   return (
     <Routes>
       <Route path={'/users'} element={<AllUsers />} />
+      <Route path={'/users/:id'} element={<SingleUser />} />
       <Route path={'/'} element={<Navigate replace to={'/users'} />} />
-      <Route path={'/users/:id'} element={<SingleUser/>} />
-      <Route path={'/create'} element={<CreateUser />} />
-      <Route path={'/edit'} element={<EditUser />} />
+      <Route path={'/users/create'} element={<CreateUser />} />
+      <Route path={'/users/:id/edit'} element={<EditUser />} />
     </Routes>
   );
 }

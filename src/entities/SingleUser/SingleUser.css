@@ -1,0 +1,50 @@
+.user-container {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-line {
+    width: 40%;
+    margin-top: 2%;
+}
+
+span {
+    color: #044F67;
+    font-weight: bold;
+    margin-right: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+button {
+    background-color: #D2D7D3;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0.5px solid #044F67;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+#edit, #delete {
+    padding: 7px;
+}
+
+#edit {
+    margin-right: 5%;
+    color: #22A7F0;
+}
+
+#delete {
+    color: #F22613;
+}

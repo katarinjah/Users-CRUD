@@ -1,0 +1,29 @@
+#new-user-line {
+    width: 25%;
+    margin-top: 1%;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.create {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0.5%;
+    border-radius: 5px;
+    border: 0.2px solid #044F67;
+}
+
+#create-user-button {
+    background-color: #D2D7D3;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0.5px solid #044F67;
+    padding: 7px;
+    color: #22A7F0;
+    margin-top: 2%;
+}

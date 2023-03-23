@@ -1,0 +1,30 @@
+#edit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit-container {
+    margin-top: 1%;
+}
+
+#second-line {
+    margin-top: 2%;
+}
+
+input {
+    padding: 0.3%;
+    border-radius: 5px;
+    border: 0.2px solid #044F67;
+}
+
+.subtitle {
+    color: #044F67;
+    font-weight: bold;
+}
+
+#submit-button {
+    padding: 7px;
+    color: #22A7F0;
+}

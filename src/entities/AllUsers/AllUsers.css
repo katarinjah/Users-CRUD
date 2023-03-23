@@ -4,7 +4,7 @@
 
 h1 {
     text-align: center;
-    color: white;
+    color: #22A7F0;
     margin-bottom: 1%;
 }
 
@@ -17,25 +17,20 @@ hr {
     text-align: center;
 }
 
-button {
+#create-user {
     background-color: #D2D7D3;
-    font-weight: 500;
+    color: #044F67;
+    font-weight: bold;
     border-radius: 5px;
     border: 0.5px solid #044F67;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 7px;
 }
 
 button:hover {
     cursor: pointer;
     transform: scale(0.98);
-}
-
-#create-user {
-    margin-bottom: 1%;
-    padding: 7px;
-}
-
-#edit, #delete {
-    padding: 5px;
 }
 
 table {
@@ -54,6 +49,10 @@ th {
     font-size: 1em;
 }
 
+td {
+    width: 25%;
+}
+
 tr:nth-child(even) {
   background-color: #ECF0F1;
 }
@@ -63,11 +62,7 @@ th {
     color: white;
 }
 
-td:last-of-type {
-    justify-content: space-between;
-    text-align: center;
-}
-
-#delete {
-    margin-left: 20%;
+.user-name:hover {
+    color: #317589;
+    cursor: pointer;
 }
